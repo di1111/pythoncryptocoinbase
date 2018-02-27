@@ -1,0 +1,18 @@
+Planning PythonCryptoCoinBaseNode:
+1: Have a Flask server and a way to send post/get requests
+
+2: Have a blockchain variable or a way to get blockchain from local node
+
+
+Planning PythonCryptoCoinBaseMiner:
+1: Have a Flask server and a way to send post/get requests
+
+2: Have a blockchain variable or a way to get blockchain from local node
+
+3: Have a mining function
+	3a: While true loop
+		3bI: Get new blocks and difficulty
+		3bII: Mine
+		3bIII: if new block found:
+			3bIIIa: broadcast
+		3bIV: loop
